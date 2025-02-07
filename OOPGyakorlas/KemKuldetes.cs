@@ -48,5 +48,10 @@ namespace OOPGyakorlas
 		{
 			sikerEsely = sikerEsely * ((szazalek / 100)+1);
 		}
+
+		public override string? ToString()
+		{
+			return $"{kodnev} {orszag} {veszelySzint} {sikerEsely}";
+		}
 	}
 }
