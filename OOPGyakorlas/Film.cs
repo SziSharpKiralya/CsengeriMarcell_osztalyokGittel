@@ -55,7 +55,7 @@ namespace OOPGyakorlas
 
 		public override string? ToString()
 		{
-			return $"";
+			return $"{cim} {rendezo} {HosszPercekben} {mufaj} {megjelent}";
 		}
 	}
 }
